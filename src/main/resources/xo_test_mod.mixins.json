@@ -1,0 +1,10 @@
+{
+	"required": true,
+	"package": "net.xo.xo_test_mod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
