@@ -18,5 +18,6 @@ public class XoTestMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		net.xo.xo_test_mod.item.ModItems.registerModItems();
 	}
 }
