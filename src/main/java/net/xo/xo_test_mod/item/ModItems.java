@@ -11,10 +11,10 @@ import net.minecraft.util.Identifier;
 import net.xo.xo_test_mod.XoTestMod;
 
 public class ModItems {
-    public static final Item ruby = registerItem("ruby",new Item(new FabricItemSettings()));
+    public static final Item RUBY = registerItem("ruby",new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTab(FabricItemGroupEntries entries) {
-        entries.add(ruby);
+        entries.add(RUBY);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(XoTestMod.mod_id, name), item);
