@@ -35,6 +35,5 @@ public class ModItems {
         XoTestMod.LOGGER.info("Registering items for " + XoTestMod.mod_id);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientGroup);
-
     }
 }
