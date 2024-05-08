@@ -3,6 +3,7 @@ package net.xo.xo_test_mod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -14,8 +15,15 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby",new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby",new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientTab(FabricItemGroupEntries entries) {
+    private static void addItemsToIngredientGroup(FabricItemGroupEntries entries) {
         Item[] items = {RUBY,RAW_RUBY};
+        for (Item i: items) {
+            entries.add(i);
+        }
+    }
+
+    private static void addItemsToBuildingBlocksGroup(FabricItemGroupEntries entries) {
+        Item[] items = {};
         for (Item i: items) {
             entries.add(i);
         }
@@ -26,6 +34,7 @@ public class ModItems {
     public static void registerModItems() {
         XoTestMod.LOGGER.info("Registering items for " + XoTestMod.mod_id);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTab);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientGroup);
+
     }
 }
