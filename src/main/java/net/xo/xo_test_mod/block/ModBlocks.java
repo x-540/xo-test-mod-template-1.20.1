@@ -17,6 +17,7 @@ import net.xo.xo_test_mod.item.ModItems;
 
 public class ModBlocks {
     public static final Block ruby_block = registerBlock("ruby_block", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK).mapColor(MapColor.DARK_CRIMSON).strength(4F)));
+    public static final Block gufinguy_block = registerBlock("gufinguy_block", new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).mapColor(MapColor.BLACK).strength(-1F)));
     private static Block registerBlock(String name, Block block) {registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(XoTestMod.mod_id, name), block);
     }

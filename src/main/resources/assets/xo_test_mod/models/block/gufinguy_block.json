@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "xo_test_mod:block/gufinguy_block"
+  }
+}

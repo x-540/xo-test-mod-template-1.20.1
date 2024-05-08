@@ -1,5 +1,6 @@
 {
   "item.xo_test_mod.ruby": "Ruby",
   "item.xo_test_mod.raw_ruby": "Raw Ruby",
-  "block.xo_test_mod.ruby_block": "Ruby Block"
+  "block.xo_test_mod.ruby_block": "Ruby Block",
+  "block.xo_test_mod.gufinguy_block": "Gufinguy Block"
 }
