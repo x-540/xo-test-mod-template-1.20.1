@@ -1,5 +1,6 @@
 package net.xo.xo_test_mod;
 
+import net.minecraft.block.Blocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
