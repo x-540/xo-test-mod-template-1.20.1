@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "xo_test_mod:raw_ruby_block",
+    "xo_test_mod:ruby_block"
+  ]
+}

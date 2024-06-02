@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:blocks",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xo_test_mod:ruby_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
