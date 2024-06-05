@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "xo_test_mod:raw_ruby_block",
-    "xo_test_mod:ruby_block"
+    "xo_test_mod:ruby_block",
+    "xo_test_mod:ruby_ore",
+    "xo_test_mod:deepslate_ruby_ore"
   ]
 }

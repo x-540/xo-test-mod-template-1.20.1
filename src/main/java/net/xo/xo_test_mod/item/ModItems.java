@@ -24,7 +24,7 @@ public class ModItems {
     }
 
     private static void addItemsToBuildingBlocksGroup(FabricItemGroupEntries entries) {
-        Item[] items = {ModBlocks.ruby_block};
+        Item[] items = {};
         for (Item i: items) {
             entries.add(i);
         }

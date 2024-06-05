@@ -2,5 +2,7 @@
   "item.xo_test_mod.ruby": "Ruby",
   "item.xo_test_mod.raw_ruby": "Raw Ruby",
   "block.xo_test_mod.ruby_block": "Ruby Block",
-  "block.xo_test_mod.raw_ruby_block": "Raw Ruby Block"
+  "block.xo_test_mod.raw_ruby_block": "Raw Ruby Block",
+  "block.xo_test_mod.ruby_ore": "Ruby Ore",
+  "block.xo_test_mod.deepslate_ruby_ore": "Deepslate Ruby Ore"
 }
